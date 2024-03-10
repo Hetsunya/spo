@@ -281,7 +281,7 @@ G_MODULE_EXPORT void on_btnabout_clicked(GtkButton *button, gpointer data)
         GTK_DIALOG_MODAL | GTK_DIALOG_DESTROY_WITH_PARENT, "_OK", GTK_RESPONSE_NONE, NULL);
     GtkWidget *content_area = gtk_dialog_get_content_area(GTK_DIALOG(dialog));
     gtk_container_set_border_width(GTK_CONTAINER(content_area), 15);
-    GtkWidget *label = gtk_label_new("\nРазработчик: Максим Амелин\n");
+    GtkWidget *label = gtk_label_new("\nРазработчик: Демьянцев Виталий\n");
     gtk_container_add(GTK_CONTAINER(content_area), label);
     gtk_widget_show(label);
     gtk_dialog_run(GTK_DIALOG(dialog));

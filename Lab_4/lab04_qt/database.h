@@ -11,7 +11,7 @@
 #include <QSqlQuery>
 
 #define DATABASE_HOSTNAME "ExampleDataBase"
-#define DATABASE_NAME "maks.db"
+#define DATABASE_NAME "database.db"
 
 #define TABLE_DOCTOR "doctor"
 #define DOC_ID "id"

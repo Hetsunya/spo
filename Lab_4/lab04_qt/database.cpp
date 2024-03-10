@@ -10,7 +10,7 @@ DataBase::~DataBase()
 
 void DataBase::connectToDataBase()
 {
-    if (QFile("maks.db").exists())
+    if (QFile("database.db").exists())
     {
         this->openDataBase();
     }
@@ -20,7 +20,7 @@ bool DataBase::openDataBase()
 {
     db = QSqlDatabase::addDatabase("QSQLITE");
     //db.setHostName(DATABASE_HOSTNAME);
-    db.setDatabaseName("maks.db");
+    db.setDatabaseName("database.db");
     if (db.open())
     {
         return true;

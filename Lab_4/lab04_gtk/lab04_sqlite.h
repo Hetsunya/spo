@@ -1,7 +1,7 @@
 #ifndef LAB04_SQLITE_H
 #define LAB04_SQLITE_H
 
-#define DB_FILE "maks.db"
+#define DB_FILE "database.db"
 
 void sqlite_insert(char *fio, char* date, char * pol, int doc_id, int sert_id);
 void sqlite_delete(int);
